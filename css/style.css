@@ -1,0 +1,175 @@
+﻿
+/*-------------------*/
+
+#start{
+	display:block;
+	width:800px;
+	height:550px;
+	border-radius:30px;
+	background:lightgreen;
+	position:fixed;
+	top:100px;
+	left:calc(50% - 400px);
+	z-index:10;
+}
+
+#start>div:first-child{
+	font-size:90px;
+	position:absolute;
+	top:-10px;
+	left:100px;
+	color:blue;
+	font-weight:900;
+}
+
+#start>div:nth-child(2){
+	font-size:70px;
+	position:absolute;
+	top:90px;
+	left:260px;
+	color:blue;
+	font-weight:bold;
+}
+
+#start>div:nth-child(3){
+	width:300px;
+	height:330px;
+	background:url(../img/play.png);
+	position:absolute;
+	bottom:70px;
+	left:calc(50% - 150px);
+	background-size:contain;
+	transition:0.3s;
+}
+
+#start>div:nth-child(3):hover{
+	transform:scale(1.2);
+	cursor:pointer;
+	transition:0.3s;
+}
+
+.main_grid{
+	display:grid;
+	grid-template-columns: repeat(4, 104px);
+	grid-template-rows: repeat(4, 104px);
+	width:416px;
+	height:416px;
+	margin:100px auto;
+}
+
+.main_grid>div{
+	width:100px;
+	height:100px;
+	position:relative;
+	transform-style:preserve-3d;
+	transition:0.3s;
+}
+
+/*.main_grid>div:hover{
+	transform:rotateY(180deg);
+	transition:0.5s;
+}*/
+
+.face{
+	width:100px;
+	height:100px;
+	background:green;
+	border:1px solid black;
+	border-radius:3px;
+	position:absolute;
+	top:0;
+	left:0;
+	transform:translateZ(1px);
+	opacity:1;
+}
+
+.back{
+	width:100px;
+	height:100px;
+	border:1px solid black;
+	border-radius:3px;
+	position:absolute;
+	top:0;
+	left:0;
+	transform:rotateY(180deg) translateZ(1px);
+}
+
+#area1>div:nth-child(2){
+	background:url(../img/1.png), white;
+	background-size:cover;
+}
+
+#area2>div:nth-child(2){
+	background:url(../img/5.png), white;
+	background-size:cover;
+}
+
+#area3>div:nth-child(2){
+	background:url(../img/8.png), white;
+	background-size:cover;
+}
+
+#area4>div:nth-child(2){
+	background:url(../img/3.png), white;
+	background-size:cover;
+}
+
+#area5>div:nth-child(2){
+	background:url(../img/4.png), white;
+	background-size:cover;
+}
+
+#area6>div:nth-child(2){
+	background:url(../img/2.png), white;
+	background-size:cover;
+}
+
+#area7>div:nth-child(2){
+	background:url(../img/7.png), white;
+	background-size:cover;
+}
+
+#area8>div:nth-child(2){
+	background:url(../img/6.png), white;
+	background-size:cover;
+}
+
+#area9>div:nth-child(2){
+	background:url(../img/6.png), white;
+	background-size:cover;
+}
+
+#area10>div:nth-child(2){
+	background:url(../img/3.png), white;
+	background-size:cover;
+}
+
+#area11>div:nth-child(2){
+	background:url(../img/2.png), white;
+	background-size:cover;
+}
+
+#area12>div:nth-child(2){
+	background:url(../img/8.png), white;
+	background-size:cover;
+}
+
+#area13>div:nth-child(2){
+	background:url(../img/4.png), white;
+	background-size:cover;
+}
+
+#area14>div:nth-child(2){
+	background:url(../img/7.png), white;
+	background-size:cover;
+}
+
+#area15>div:nth-child(2){
+	background:url(../img/1.png), white;
+	background-size:cover;
+}
+
+#area16>div:nth-child(2){
+	background:url(../img/5.png), white;
+	background-size:cover;
+}
