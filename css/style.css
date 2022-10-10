@@ -173,3 +173,40 @@
 	background:url(../img/5.png), white;
 	background-size:cover;
 }
+
+#play_again{
+	width:800px;
+	height:550px;
+	display:none;
+	border-radius:30px;
+	background:lightgreen;
+	position:fixed;
+	top:100px;
+	left:calc(50% - 400px);
+	z-index:10;
+}
+
+#play_again>h2{
+	font-size:90px;
+	position:absolute;
+	top:0px;
+	left:180px;
+	color:blue;
+	font-weight:900;
+	margin:0;
+}
+
+#play_again>img{
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:150px;
+	left:250px;
+	transition:0.3s;
+}
+
+#play_again>img:hover{
+	cursor:pointer;
+	transition:0.3s;
+	transform:scale(1.2);
+}
